@@ -27,9 +27,10 @@ function addItem(){
     var textnode = document.createTextNode(myValue)
 
     if(myValue===''){
-        var print = document.createElement('p'); 
-        print.textContent = 'Enter Your TODO' 
-        document.querySelector('body').appendChild(print);
+        // var print = document.createElement('p'); 
+        // print.textContent = 'Enter Your TODO' 
+        // document.querySelector('body').appendChild(print);
+        return false
         
     }else{
         //create li
